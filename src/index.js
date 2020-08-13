@@ -1,5 +1,9 @@
-export const sum = (x,y) => x + y
-
-export const otherSum = () => {
-    return '$' + sum(a, b)
-}
+import React from 'react';
+import ReactDOM from 'react-dom';
+ 
+const title = 'React world';
+ 
+ReactDOM.render(
+  <div>{title}</div>,
+  document.getElementById('app')
+);
