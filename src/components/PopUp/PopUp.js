@@ -1,8 +1,8 @@
 import React from 'react'
-
+import styles from './PopUp.css'
 function PopUp() {
     return (
-        <div>
+        <div className={styles.popup}>
             Popup
         </div>
     )
